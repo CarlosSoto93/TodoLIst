@@ -24,3 +24,8 @@ $("input[type='text']").keypress(function(event){
 $(".fa-plus").click(function(){
     $("input[type='text']").fadeToggle();
 });
+
+$( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+} );
